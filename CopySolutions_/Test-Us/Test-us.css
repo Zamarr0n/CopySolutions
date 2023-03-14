@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+h1{
+    color: navy;
+}
+.padding-top3{
+    padding-top: 6%;
+}
+#background{
+    background: rgba(32, 61, 105, 0.533);
+}
+.navy1{
+    color: navy;
+}
+li{
+    padding: 0.5% 0;
+}
+.logotipo2{
+    font-size: 140%;
+    max-width: 5%;
+    position: relative;
+    left: 5%;
+    color: navy;
+}
+.b{
+    text-decoration: none;
+    color: navy;
+}
+.b:hover{
+    color: gray;
+}
+.info-1{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    max-width: 100%;
+}
+.info-11{
+    display: grid;
+    place-items: center;
+    text-align: left;
+    max-width: 50%;
+}
+.button {
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: rgba(76, 157, 194, 0.901);
+}
+
+.button:hover {
+    background-color: rgba(63, 63, 160, 0.859);
+    color: white;
+    
+}
+.button:active {
+    background-color: white;
+    transform: translateY(3px);
+} 
+
+.boton{
+    max-width: 100%;
+    padding: 16px  20px;
+}
+.padding-bottom1{
+    padding-bottom: 2.5%;
+}
+.padding-top1{
+    padding-top: 2.5%;
+}
+.padding-top2{
+    padding-top: 15%;
+}
+.space-form{
+    padding-bottom: 2%;
+}
+.text-center1{
+    
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+.remark{
+    border-bottom: 3px solid white;
+}
+.remark-red{
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+}
+/* social-media */
+.email:hover,.ig:hover,.twitter:hover{
+    color: black;
+}
+.email,.ig,.twitter{
+    color: white;
+}
+#media{
+    background-color: rgba(32, 61, 105, 0.841); 
+    color: white;
+    margin-top: 8%;
+}
+.decoration{
+    text-decoration: none;
+}
+.social{
+    color: white;
+}
+@media (max-width:900px){
+    .padding-top7{
+        padding-top: 7%;
+    }
+}
+@media (max-width:600px){
+    .padding-top7{
+        padding-top: 15%;
+    }
+}

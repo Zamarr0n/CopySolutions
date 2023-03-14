@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(73, 104, 151, 0.841); 
+}
+h1{
+    color: navy;
+}
+h3,h4{
+    color: white;
+}
+strong{
+    font-size: 60px;
+}
+#media{
+    background-color: rgba(32, 61, 105, 0.841);
+    margin-top: 10%; 
+}
+.decoration{
+    text-decoration: none;
+}
+.border1{
+    
+    padding-top: 2.5%;
+}
+.text-center{
+    text-align: center;
+}
+.info-1{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    max-width: 100%;
+}
+.email:hover,.ig:hover,.twitter:hover{
+    color: black;
+}
+.email,.ig,.twitter{
+    color: white;
+}
+.social-media{
+    color: white;
+}
+.contact-form{
+    /* padding-top: 2.5%; */
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5%;
+}
+
+.space{
+    padding-top: 2.5%;
+    padding-bottom: 21%;
+}
+.center{
+    text-align: center;
+}
+
+.button {
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: rgba(76, 157, 194, 0.901);
+}
+
+.button:hover {
+    background-color: rgba(63, 63, 160, 0.859);
+    color: white;
+    
+}
+/* 3d3d3d */
+.button:active {
+    background-color: white;
+    transform: translateY(3px);
+} 
+
+.boton{
+    max-width: 100%;
+    padding: 12px  20px;
+}
+.space5{
+    padding-bottom: 1.5%;
+}
+@media (max-width:999px) {
+    strong{
+        font-size: 45px;
+    }
+}

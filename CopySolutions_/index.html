@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopySolutions</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/24602a443b.js" crossorigin="anonymous"></script>
+        
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- google-fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- icon-tab -->
+    <link rel="icon" href="./img-index/Favicon.png">
+</head>
+
+<body>
+    <!--navbar -->
+    <section id="Nav">
+      
+        <nav class="navbar bg-body-tertiary fixed-top " data-bs-theme="">
+            <div class="container-fluid">
+            <a class="navbar-brand logotipo2" href="./index.html"> <h1 class="logotipo2">CopySolutions</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="offcanvasNavbarLabel logotipo2">CopySolutions</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="./About/About.html"><h4 class="b">About</h4></a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="./Test-Us/Test-us.html"><h4 class="b">Test Us</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./Pricing/Pricing.html"><h4 class="b">Pricing</h4></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- body -->
+    <!-- section for the background color -->
+    <section id="cuerpo-completo" class="">
+        
+        <!-- START OF CARROUSEL-->
+    <section id="carrousel" class=" background-video diseño-del-titulo-git ">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          
+        <div class="carousel-item active ">
+            <img src="./img-index/carrousel/jeff-bezos-carrousel.jpeg" class="d-block w-100" alt="jeff_bezos">
+            <div class="carousel-caption  d-lg-block transpa">
+              <h2>"Your brand is what people say about you when you're not in the room."</h2>
+              <p>
+                Jeff Bezos
+                (founder of Amazon)
+              </p> 
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./img-index/carrousel/Owner of starbucks.jpeg" alt="starbucks" class="d-block w-100">
+            <div class="carousel-caption  d-md-block transpa">
+              <h2>"If people believe they share values with a company, they will stay loyal to the brand."</h2>
+              <p>Howard Schultz (former CEO of Starbucks)</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./img-index/carrousel/Bill-Gates-carrousel.jpeg" alt="Bill_Gates" class="d-block w-100">
+            <div class="carousel-caption  d-md-block transpa">
+              <h2>"Your most unhappy customers are your greatest source of learning."</h2>
+              <p>Bill Gates (co-founder of Microsoft)</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./img-index/carrousel/Walmart-owner-carrousel.jpeg" alt="Walmart_owner" class="d-block w-100">
+            <div class="carousel-caption  d-md-block transpa">
+              <h2>"The goal as a company is to have customer service that is not just the best, but legendary."</h2>
+              <p>Sam Walton (founder of Walmart)</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>        
+
+    </section>
+    <!-- END OF CARROUSEL -->
+
+    <section id="padding-top" class="fondo cuerpo1"> 
+      <h1 class="center"> <strong> What is CopySolutions?</strong></h1>  
+      <div class="container text-center ">
+            <div class="row  ">
+            <div class=" space col-md-12 col-sm-12 col-lg-12 copysolution ">
+              
+                <div class="  center">
+                    <p class="p">We are a team of passionate and experienced writers who specialize in crafting compelling content that connects with your audience. Our ultimate mission is to help businesses like yours tell their unique stories and achieve their goals through the power of words.
+                    </p>
+                    <p class="p">
+                        We take a tailored approach to content creation by leveraging our team of experts across various industries. This ensures that we can deliver high-quality copy that not only engages and informs but also inspires your audience. We understand the importance of effective communication in today's fast-paced digital world, and our team is dedicated to delivering content that truly resonates with your customers
+                    </p>
+                        <h4>
+                            <b class="remark">START TELLING YOUR STORY TODAY!</b> 
+                        </h4> 
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>  
+            </div>  
+        </section> 
+        <!-- programar para que aparezca despues de la imagen de inicio -->
+        <div aria-live="polite" aria-atomic="true" class="bg-body-secondary position-relative bd-example-toasts rounded-3 position-fixed">
+      <div class="toast-container hidden2 p-3 bottom-0 end-0 position-fixed" data-original-class="toast-container p-3">
+        
+        <div class="toast fade show">
+          <div class="toast-header">
+            <strong class="me-auto">CopySolutions</strong>
+            <small>Just Now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            keep scrolling to know more about us :)  
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+            <section id="steps" class=""> 
+                <div class="container "> 
+                  <div class="row ">
+                    <div class="col-md-12 col-sm-12 col-lg-12 ">
+                      <h1 class="center "> <strong> How We Work:</strong></h1>
+                  </div>
+                  <div class=" col-md-12 col-sm-12 col-lg-6 center">
+                  <div class="hidden">
+                    <img src="./img-index/Note-index-1/2.png"  class="rststep" alt="First-stp">
+                  </div>
+                      </div>
+                  
+                <div class="col-md-12 col-sm-12 col-lg-6 center "> 
+                  <div class="hidden">
+                    <img src="./img-index/Note-index-1/3.png" class="ndstep" alt="Second-stp">
+                  </div>
+                </div>
+                  <br>
+                  <div class="col-md-12 col-sm-12 col-lg-6 center">
+                      
+                  <div class="hidden1"> 
+                    <img src="./img-index/Note-index-1/1.png" class='rststep' alt="Third-stp">
+                  </div>
+              </div>
+      
+                  <div  class="col-md-12 col-sm-12 col-lg-6 center ">
+                      <div class="hidden1">
+                      <img src="./img-index/Note-index-1/4.png" class="ndstep" alt="Fourth_Step">
+                  </div>
+              </div>
+                  </div>
+                </div>  
+              </section>
+            <section id="services" class="center fondo diseño-del-titulo-git"> 
+            <div class="container space2 space">
+                <div class="row">
+                <div class="col-lg-6 col-sm-12 col-md-12 imgn center">
+                    <section class='business '>
+                        <!-- background image -->
+                    </section>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-12">
+                    <h1 class="center c"> <b>Our services include:</b></h1>
+            <div class="center"> 
+                <div class="center">
+            
+            <ul class=" lista verde2">    
+            <li class="hidden1"><b> Website copywriting: </b> <br> We'll craft compelling and SEO-friendly copy that will help you increase visibility and drive more traffic to your website. </li> 
+            <br>
+            <li class="hidden1"><b>Product descriptions:</b> <br> We'll make sure your products sound as good as they look by creating persuasive and detailed descriptions that highlight their best features.</li>
+            <br>
+            <li class="hidden1"><b>Email marketing:</b> <br> We'll help you create engaging and personalized emails that will boost your open and click-through rates. </li>
+            <br>
+            <li class="hidden1"><b>Social media:</b> <br> We'll help you create catchy and shareable posts that will increase your reach and engagement.</li>
+            <br>
+            <li class="hidden3"><h5><b>And more!</b></h5></li>
+            <br>
+            </ul>
+            <div class="center space">
+                <a  class='link' href="./About/About.html">  
+                    <button type="button" class="btn btn-secondary boton button">
+                            <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                              </svg>
+                                About Us
+                                </h5> 
+                    </button>
+                </a> 
+            </div>
+        </div>
+        </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+          <div class="row ">
+            <div class=" col-lg-12 col-md-12 col-sm-12">
+
+            
+              <h1><b>FAQ</b></h1>
+            <!-- Accordion -->
+        <div class="accordion " id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button btn collapsed btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is copywriting?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Copywriting is the process of writing text that is used to promote a product, service, or idea. It involves creating persuasive and engaging content that motivates the reader to take a particular action, such as making a purchase, signing up for a newsletter, or visiting a website.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What services do copywriting agencies offer?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Copywriting agencies typically offer a range of services, including website copywriting, advertising copywriting, social media copywriting, email copywriting, content creation, editing, and proofreading. Some agencies may specialize in certain types of copywriting, such as B2B or B2C marketing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How do I choose the right copywriting agency for my business?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                When choosing a copywriting agency, you should consider factors such as their experience, portfolio, pricing, and communication style. Look for an agency that has experience working in your industry and can provide examples of their work. It's also important to discuss your needs and expectations upfront to ensure a good fit.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                How long does it take to complete a copywriting project?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The time it takes to complete a copywriting project depends on the scope of the project and the agency's workload. Simple projects, such as a blog post or social media post, may take a few days, while more complex projects, such as a website redesign or ad campaign, may take several weeks or even months.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFifth">
+              <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                What is the process for working with a copywriting agency?
+              </button>
+            </h2>
+            <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The process for working with a copywriting agency typically involves an initial consultation to discuss your needs and goals, followed by a proposal and agreement outlining the scope of the project and pricing. The agency will then work on creating the content and provide revisions based on your feedback.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSixth">
+              <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixth" aria-expanded="false" aria-controls="collapseSixth">
+                How much does copywriting services cost?
+              </button>
+            </h2>
+            <div id="collapseSixth" class="accordion-collapse collapse" aria-labelledby="headingSixth" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Copywriting services vary in cost depending on the agency's experience, the scope of the project, and other factors. Many agencies charge by the word or by the hour, while others offer flat-rate pricing. It's important to discuss pricing upfront and ensure that it fits within your budget.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Can copywriting agencies help with branding?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, copywriting agencies can help with branding by creating consistent and compelling messaging across all of your marketing materials. They can also help with naming and tagline creation, tone of voice development, and brand storytelling.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Of Accordion -->
+      </div>
+          </div>
+        </div>
+
+        </section>
+
+        </div>   
+        </div>  
+        </section>
+        <!-- email -->
+        <section id="script">
+            <div class="">
+                <div class="contact-form">
+
+                    <form id="contactform" action="https://formsubmit.co/wearecopysolutions@gmail.com" method="POST">
+                    <div class="mb-3"> 
+                        <h3 for="gmail" class="form-label image-letters"><b class="image-letters">Email address</b></h3>
+                        <input name='email' type="email" class="form-control" id="gmail" placeholder="youremail@gmail.com" required> 
+                    </div>
+                    <div class="mb-3"> 
+                        <h3 for="message" class="form-label image-letters"><b class="image-letters">Subject</b></h3>
+                        <textarea name='message' class="form-control " id="message" rows="3" placeholder="Contact us to know more about our services (Be specific)" required></textarea>
+                    </div>
+                </div>
+                <div class="center">
+                        <button type="submit" class="btn btn-secondary boton button" >
+                            <h5>
+                            Submit
+                            </h5> 
+                        </button>
+                    </div> 
+            </form>
+            </div>
+
+        
+        <br>
+
+        <!-- redes sociales -->
+        <section id="media">
+
+          <div class=" info-1 ">
+            <div class="container ">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12 ">
+
+                    <a href="" type="button" class="decoration">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at-fill email" viewBox="0 0 16 16">
+                      <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+                      <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+                    </svg>
+                        <h6 class="social-media"> wearecopysolutions@gmail.com </h6>
+                      </a>
+                  </div>
+                  <div class=" col-lg-4 col-md-12 col-sm-12">
+                    <div class="">
+                      <a href="https://instagram.com/_copysolutions_?igshid=YmMyMTA2M2Y=" type="button" class="decoration">
+                              <i class=" ig fa-brands fa-instagram fa-2x"></i>
+                                <h6 class="social-media">_copysolutions_</h6>  
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class=" col-lg-4 col-md-12 col-sm-12">
+                    <div class="">
+                      <a href="https://twitter.com/copysolutions__?s=21&t=kv7YBWVXgS5UIfo3KslWZA" type="button" class="decoration">
+                        <i class="twitter fa-brands fa-twitter fa-2x"></i>
+                        <h6 class="social-media">_CopySolutions_</h6>    
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+
+        </section>
+        </section>    
+      </section>
+
+    </section>
+    <script src="./index.js"></script> 
+</body>
+</html>

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+:root{
+    /* navbar  */
+    --navbar-toggler-border-color: white;
+}
+
+.navbar-toggler{
+    border-color: var(--navbar-toggler-border-color);
+}
+
+body{
+    padding: 0;
+    color: black; 
+    /* display: grid;
+    align-items: center ; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(32, 61, 105, 0.533); 
+} 
+b{
+    color: navy;
+}
+h1{
+    color: black;
+}
+.remark-red{
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+}
+.remark-blue{
+    border-top: 3px solid rgb(20, 20, 75);
+    border-bottom: 3px solid rgb(20, 20, 75);
+    border-left: 3px solid rgb(20, 20, 75);
+    border-right: 3px solid rgb(20, 20, 75);
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.caja{
+    background-color: red;
+}
+.justify{
+    text-align: justify;
+
+}
+.card{
+    max-width: 100%;
+}
+.card-body,.card2{
+    background-color: lightblue;
+}
+.card-text{
+    color: green;
+}
+.last{
+    max-width: 35%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+.size{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video{
+    max-width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.writer{
+    max-width: 100%;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.marketing{
+    max-width: 100%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+#introduction{
+    padding-bottom: 2.5%;
+    font-size: 20px;
+}
+#start{
+    background-image: url('./img-pricing/Pricing-img.png'); 
+    background-color: rgba(10, 11, 14, 0.865);
+    padding: 10%;
+    background-blend-mode: lighten;
+    color: white;
+    text-align: center;
+}
+.line{
+    max-width: 100%;
+    backdrop-filter: blur(10px);
+    backdrop-filter: white; 
+    padding: 2%;
+    max-width: 100%;
+}
+.Tittle{
+    font-size: 45px;
+    text-align: center;
+}
+#social-media{
+    background-image: url('./img-pricing/3.2.png') ;
+}
+#media{
+    background-color: rgba(32, 61, 105, 0.653); 
+    color: white;
+    
+}
+.git{
+    border-top: 2.5px solid black;
+    padding-top: 3%;
+}
+
+.logotipo2{
+    font-size: 140%;
+    max-width: 5%;
+    position: relative;
+    left: 5%;
+    color: navy;
+}
+.email:hover,.ig:hover,.twitter:hover{
+    color: black;
+}
+.email,.ig,.twitter{
+    color: white;
+}
+.copysolution{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-letters{
+    color: white;
+    text-align: center;
+    font-size: 25px;  
+    padding-top: 2px;
+}
+
+.button {
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: rgba(76, 157, 194, 0.862);
+}
+
+.button:hover {
+    background-color: rgba(63, 63, 160, 0.85);
+    color: white;
+    
+}
+
+.button:active {
+    background-color: white;
+    transform: translateY(3px);
+} 
+
+.boton{
+    max-width: 100%;
+    padding: 20px  20px;
+}
+.steps{
+    padding-bottom: 5%;
+}
+.info-1{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    max-width: 100%;
+}
+.line1,.line2,.line3{
+    padding-bottom: 2.5%;
+}
+
+.list{
+    display: grid;
+    place-items: center;
+    text-align: left;
+    padding: 2.5% 0%;
+}
+.b{
+    text-decoration: none;
+    color: navy;
+}
+.b:hover{
+    color: gray;
+}
+.decoration{
+    text-decoration: none;
+}
+.social{
+    color: white;
+}
+@media (max-width:990px) {
+    h1{
+        color: white;
+        font-size: 10px;
+    }
+    #start{
+        background-image: url('./img-pricing/Pricing-img.png'); 
+        background-color: rgba(6, 7, 9, 0.865);
+        padding: 22%;
+        background-blend-mode: lighten;
+        color: white;
+        text-align: center;
+        
+    }
+    .info-1-1{
+        display: grid;
+    place-items: center;
+    text-align: center;
+    max-width: 100%;
+    }
+    .last{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5%;
+    }
+    .video{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .space{
+        padding-bottom: 7%;
+    }
+}
